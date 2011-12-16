@@ -1,0 +1,47 @@
+== Memory card game
+
+Game description:
+1. Game board 4x4.
+2. You can use only arrows buttons and key "Enter".
+3. Restart button for play a new game.
+4. After when you finished game, will open modal window with form with two fields on it. Please fill "name", "e-mail" and press "Enter".
+5. Highscores window shows you current score and rank position. You can press "Enter", if you want to play a new round.
+
+
+== Installation process on Windows:
+
+- you should download easy-to-use installer from here http://railsinstaller.org/
+- install railsinstaller-2.0.1 (if something went wrong, you could find a help here http://groups.google.com/group/railsinstaller)
+- create folder and named it
+- extract Archive.zip to this folder
+- open cmd.exe (command line in Windows), you can do that by click on "Start" button -> find an input "Search programs and files" -> type "cmd" -> type "enter" 
+- check if you have Ruby, type "ruby -v" should be "ruby 1.9.2p290"
+- check if you have Rails, type "rails -v" should be "Rails 3.1.1"
+- go to folder by command line where you unpacked the app, something like "cd C:\test_app\"
+- type "bundle install"
+  ...
+  wait for a while
+
+- "rake db:create"
+- "rake db:migrate"
+- "rails server"
+- open browser and type http://localhost:3000
+- and that's it, enjoy the game!
+
+I hope you like it.
+
+== Env:
+Ruby
+Rails
+Sqlite3
+Mac OS X 10.6.8
+
+== Tested in Windows:
+Chrome
+Firefox
+Safari
+
+== Tested on Mac:
+Chrome
+Firefox
+Safari

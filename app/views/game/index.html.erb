@@ -1,0 +1,113 @@
+<div class="wrap">
+	<div class="modal form hide modal-shadow">
+		<div class="modal-border">
+			<div class="modal-content">
+				<h2>Game is over</h2>
+				<div class="form-block">
+					<form id="fb_form">
+						<input type="hidden" name="app_id" value="memory_game" id="fb_appid" />
+						<input type="hidden" name="score" value="0" id="fb_score" />
+						<div class="fb-field">
+							<label for="name"><strong>Your name</strong></label> <br />
+							<input type="text" name="name" id="fb_name" />
+						</div>
+						<div class="fb-field">
+							<label for="email"><strong>Your e-mail</strong></label> <br />
+							<input type="text" name="email" id="fb_email" />
+						</div>
+						<div class="fb-field">
+							<div class="fbf-button">
+								<button class="button continue-button"><strong>Highscores</strong></button>
+							</div>
+							
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal rank hide modal-shadow">
+		<div class="modal-border">
+			<div class="modal-content">
+				<h2>Highscores</h2>
+				<div class="table">
+					<div class="table-header">
+						<div style="width: 10%; float: left;"><strong>#</strong></div>
+						<div style="width: 60%; float: left;"><strong>Name</strong></div>
+						<div style="width: 30%; float: left;"><strong>Score</strong></div>
+					</div>
+					<div class="table-body"></div>
+				</div>
+				<div class="rank-button restart-button" id="new"><strong>Play a new round?</strong></div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="wrap-content">
+		<div class="board">
+			<div class="card-container">
+				<div class="cc-content cc-border"></div>
+			</div>
+			<div class="card-container">
+				<div class="cc-content cc-border"></div>
+			</div>
+			<div class="card-container">
+				<div class="cc-content cc-border"></div>
+			</div>
+			<div class="card-container">
+				<div class="cc-content cc-border"></div>
+			</div>
+			<div class="card-container">
+				<div class="cc-content cc-border"></div>
+			</div>
+			<div class="card-container">
+				<div class="cc-content cc-border"></div>
+			</div>
+			<div class="card-container">
+				<div class="cc-content cc-border"></div>
+			</div>
+			<div class="card-container">
+				<div class="cc-content cc-border"></div>
+			</div>
+			<div class="card-container">
+				<div class="cc-content cc-border"></div>
+			</div>
+			<div class="card-container">
+				<div class="cc-content cc-border"></div>
+			</div>
+			<div class="card-container">
+				<div class="cc-content cc-border"></div>
+			</div>
+			<div class="card-container">
+				<div class="cc-content cc-border"></div>
+			</div>
+			<div class="card-container">
+				<div class="cc-content cc-border"></div>
+			</div>
+			<div class="card-container">
+				<div class="cc-content cc-border"></div>
+			</div>
+			<div class="card-container">
+				<div class="cc-content cc-border"></div>
+			</div>
+			<div class="card-container">
+				<div class="cc-content cc-border"></div>
+			</div>
+		</div>
+		<div class="sidebar">
+			<div class="logotype"></div>
+			<div class="game-info">
+				<div class="gi-back">
+					<div class="gi-front">
+						<div class="gif-content">
+							<h2>Your score: <br /> <span id="gi_score">0</span></h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="restart-button" id="restart_game">
+				<strong>Restart game</strong>
+			</div>
+		</div>
+	</div>
+</div>
